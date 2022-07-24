@@ -1,0 +1,8 @@
+Add-Type -AssemblyName System.Speech
+$speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
+$speak.SelectVoice("Microsoft Haruka Desktop")
+
+while($i-le 5){
+$data=read-host
+$speak.Speak($data)
+}
