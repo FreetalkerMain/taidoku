@@ -1,0 +1,2 @@
+# taidoku
+タイピングで日本語の音読をするすくりぷと、windows標準搭載のpowershellにはりつけるだけ
